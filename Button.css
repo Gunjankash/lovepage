@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif ;
+    display:flex;
+    align-items: center;
+    justify-content: centre;
+    height: 100vh;
+    background-color: #590d22;
+}
+
+.like{
+    margin-left: 40%;
+    color:#ffccd5 ;
+}
+h2{
+    margin-left: 0.75em;
+}
+
+button{
+    background: none;
+    color: #ff758f;
+    border: 2px solid;
+    border-radius: 2em;
+    padding: 1em 2em;
+    margin: 1em;
+    font-size : 1em;
+    transition: all 0.25s ;
+}
+button:hover{
+    border-color: #ff4d6d ;
+    color: #ffccd5;
+    box-shadow: 0 0.5em 0.5em -0.4em  #ff4d6d ;
+    transform: translateY(-0.25em);
+}
+
+.no:hover::after { 
+    
+    content: " I Prem You!!"; 
+  } 
+
